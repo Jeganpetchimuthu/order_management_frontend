@@ -1,0 +1,141 @@
+.trContainer {
+  font-weight: 900;
+  position: relative;
+  top: 10px;
+  left: 40px;
+  background-color: white;
+  width: 1000px;
+  padding: 10px;
+  height: 40px;
+  justify-content: space-between;
+  display: flex;
+  gap: 20px;
+  color: rgb(26, 26, 245);
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px gray;
+}
+.tdContainer {
+  font-weight: 600;
+  position: relative;
+  top: 10px;
+  left: 40px;
+  background-color: white;
+  width: 1000px;
+  padding: 10px;
+  height: 40px;
+  justify-content: space-between;
+  display: flex;
+  gap: 20px;
+  color: blue;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px gray;
+}
+.customerList {
+  border: 1px solid gray;
+  box-shadow: 2px 2px 2px gray;
+  position: relative;
+  top: 1px;
+
+  left: 40px;
+  width: 1020px;
+  height: 60px;
+  background-color: white;
+  border-radius: 5px;
+}
+.cusList {
+  position: relative;
+  left: -400px;
+}
+.cusLisSpan {
+  position: relative;
+  left: 800px;
+  border: 1px solid green;
+  background-color: rgb(199, 251, 199);
+  padding: 3px;
+  top: 2px;
+  border-radius: 5px;
+  color: green;
+}
+.customer-flex-wrap {
+  position: relative;
+  top: -70px;
+  border: 1px solid rgb(253, 253, 253);
+  overflow: scroll;
+  width: 1100px;
+  height: 700px;
+  left: 90px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.customern-th {
+  color: blue;
+}
+.customere-th {
+  position: relative;
+  color: blue;
+  left: -30px;
+}
+.customera-th {
+  position: relative;
+  left: 20px;
+  color: blue;
+}
+.customerm-th {
+  position: relative;
+  left: -10px;
+  color: blue;
+}
+.customeratn-th {
+  position: relative;
+  left: -70px;
+  color: blue;
+}
+.customerst-th {
+  position: relative;
+  left: -60px;
+  color: blue;
+}
+
+.customerN-td {
+  position: relative;
+  left: 10px;
+  color: blue;
+}
+.customerE-td {
+  position: relative;
+  color: blue;
+  left: -20px;
+}
+.customerA-td {
+  position: relative;
+  left: -30px;
+  color: blue;
+}
+.customerM-td {
+  position: relative;
+  left: 10px;
+  color: blue;
+}
+.customerST-td {
+  position: relative;
+  left: 50px;
+  color: blue;
+}
+.customer-delete-btn {
+  background-color: rgb(243, 112, 112);
+  border: 1px solid rgb(243, 112, 112);
+}
+.customer-edit-btn {
+  position: relative;
+  left: 5px;
+  background-color: rgb(145, 246, 145);
+  border: 1px solid rgb(145, 246, 145);
+}
+.customer-delete-btn:hover {
+  border: 1px solid rgb(243, 112, 112);
+}
+.customer-edit-btn:hover {
+  border: 1px solid rgb(145, 246, 145);
+}

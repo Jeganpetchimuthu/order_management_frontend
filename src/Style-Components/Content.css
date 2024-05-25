@@ -1,0 +1,141 @@
+.content-container {
+  position: relative;
+  left: -2410px;
+  top: 120px;
+  width: 1200px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.product-items {
+  position: relative;
+  left: 130px;
+  color: gray;
+  width: 250px;
+  height: 130px;
+  border: 1px solid rgb(66, 19, 236);
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px blueviolet;
+}
+.product-items:hover {
+  box-shadow: 2px 2px 2px rgb(222, 56, 244);
+  border: 1px solid rgb(222, 56, 244);
+}
+.sales-items {
+  position: relative;
+  color: gray;
+  width: 250px;
+  height: 130px;
+  border: 1px solid rgb(40, 36, 245);
+  border-radius: 10px;
+  left: 150px;
+  background-color: white;
+  box-shadow: 2px 2px 2px gray;
+}
+.sales-items:hover {
+  box-shadow: 2px 2px 2px rgb(222, 56, 244);
+  border: 1px solid rgb(222, 56, 244);
+}
+.quality-items {
+  position: relative;
+  color: gray;
+  width: 250px;
+  height: 130px;
+  border: 1px solid rgb(65, 49, 237);
+  border-radius: 10px;
+  left: 170px;
+
+  box-shadow: 2px 2px 2px gray;
+  background-color: white;
+}
+.quality-items:hover {
+  box-shadow: 2px 2px 2px rgb(222, 56, 244);
+  border: 1px solid rgb(222, 56, 244);
+}
+.stock-items {
+  position: relative;
+  color: gray;
+  width: 250px;
+  height: 130px;
+  border: 1px solid rgb(48, 38, 245);
+  border-radius: 10px;
+  left: 190px;
+  background-color: white;
+  box-shadow: 2px 2px 2px gray;
+}
+.stock-items:hover {
+  box-shadow: 2px 2px 2px rgb(222, 56, 244);
+  border: 1px solid rgb(222, 56, 244);
+}
+.ord-content {
+  position: relative;
+  font-size: medium;
+  font-weight: 500;
+  top: 90px;
+  left: -50px;
+}
+.stcok-content {
+  position: relative;
+  font-size: medium;
+  font-weight: 500;
+  top: 90px;
+  left: -50px;
+}
+.cus-content {
+  position: relative;
+  left: -30px;
+  top: 30px;
+  width: 550px;
+}
+.pro-content {
+  position: relative;
+  left: -30px;
+  top: 30px;
+  width: 4x;
+  width: 450px;
+}
+.order-info {
+  position: relative;
+  left: -10px;
+  top: -15px;
+}
+.stock-info {
+  position: relative;
+  left: -10px;
+  top: -15px;
+}
+.product-info {
+  position: relative;
+  left: -70px;
+  top: -15px;
+}
+.customer-info {
+  position: relative;
+  left: -70px;
+  top: -15px;
+}
+.contentIcon-mi {
+  position: relative;
+  left: 60px;
+  top: 4px;
+  color: green;
+}
+.contentProductIcon-mi {
+  position: relative;
+  left: 60px;
+  top: 4px;
+  color: red;
+}
+.contentOrderIcon-mi {
+  position: relative;
+  left: 60px;
+  top: 4px;
+  color: blueviolet;
+}
+.contentStockIcon-mi {
+  position: relative;
+  left: 60px;
+  top: 4px;
+  color: orange;
+}

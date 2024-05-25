@@ -1,0 +1,59 @@
+.Header-components {
+  position: relative;
+  display: flex;
+  top: -260px;
+  left: -30px;
+  flex-direction: row;
+  gap: 240px;
+  width: 1340px;
+  height: 60px;
+  background-color: white;
+  border: 1px solid rgb(206, 206, 252);
+  box-shadow: 2px 2px 2px blueviolet;
+}
+
+.Header-Name {
+  position: relative;
+  display: flex;
+  gap: 20px;
+  left: 600px;
+}
+.ordermgmt {
+  margin-left: 30px;
+  color: rgb(8, 8, 8);
+}
+.search {
+  position: relative;
+  top: 69px;
+  left: -275%;
+  height: 30px;
+  width: 200px;
+  outline: none;
+  border: 1px solid blue;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px blueviolet;
+}
+.search:hover {
+  border: 1px solid orange;
+  box-shadow: 2px 2px 2px orange;
+}
+.divSecLines {
+  position: relative;
+  background-color: red;
+  top: 200px;
+  left: -320%;
+  width: 800px;
+  height: 1px;
+  border: 1px solid red;
+}
+.header_loginbtn {
+  color: black;
+}
+.header_loginbtn:hover {
+  color: rgb(28, 27, 27);
+}
+.searchinputIcon {
+  position: relative;
+  left: -490px;
+  top: 39px;
+}

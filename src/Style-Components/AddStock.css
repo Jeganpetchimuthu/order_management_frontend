@@ -1,0 +1,126 @@
+.stocksAdd {
+  position: relative;
+  top: -150px;
+  left: 80px;
+  width: 900px;
+  height: 50px;
+  box-shadow: 2px 2px 2px grey;
+  border: 1px solid grey;
+}
+.stockBack {
+  position: relative;
+  left: 400px;
+  top: 1px;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  color: green;
+  border: 1px solid rgb(52, 212, 44);
+
+  margin-left: 200px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: medium;
+}
+.stockAdd {
+  position: relative;
+  left: -220px;
+  top: -20px;
+}
+.blackline {
+  position: relative;
+  left: 140px;
+  background-color: black;
+  width: 300px;
+  height: 2px;
+}
+.cusinput {
+  position: relative;
+  left: 190px;
+  color: black;
+  border: 1px solid rgb(224, 63, 63);
+  width: 500px;
+  height: 30px;
+  outline: none !important;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+.stockinput {
+  position: relative;
+  left: 230px;
+  color: black;
+  border: 1px solid rgb(224, 63, 63);
+  width: 500px;
+  height: 30px;
+  outline: none !important;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+.cusEmail {
+  outline: none;
+  border: 1px solid red;
+}
+.stockLab {
+  position: relative;
+  left: -270px;
+}
+.cusdetails {
+  position: relative;
+  top: -110px;
+  width: 900px;
+  left: 80px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px gray;
+}
+.cusSelection {
+  position: relative;
+  left: 90px;
+  border: 1px solid brown;
+  width: 300px;
+  outline: none;
+  height: 30px;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+.cusAddbtn {
+  position: relative;
+  top: -20px;
+  width: 200px;
+  height: 40px;
+  color: white;
+  background: rgb(2, 49, 68);
+  margin-top: 50px;
+}
+.cusAddbtn:hover {
+  color: white;
+  background-color: blue;
+  box-shadow: 2px 2px 2px orangered;
+}
+.cusemail {
+  position: relative;
+  left: -270px;
+}
+.cusemailinput {
+  position: relative;
+  left: 230px;
+  outline: none !important;
+  border: 1px solid rgb(224, 63, 63);
+  width: 500px;
+  height: 30px;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  color: black;
+}
+/* .addcus_head {
+    position: relative;
+    background-color: rgb(251, 16, 16);
+  } */

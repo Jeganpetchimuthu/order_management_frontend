@@ -1,0 +1,64 @@
+.sidebar-containers {
+  position: relative;
+  top: 65px;
+  left: -1257px;
+  height: 150vh;
+  width: 15vw;
+  border: 2px solid rgb(218, 223, 251);
+  background-color: white;
+}
+.sidebar-containers:hover {
+  box-shadow: 2px 2px 2px palevioletred;
+}
+.divSec {
+  position: relative;
+  width: 200px;
+  padding: 1px;
+  top: 0px;
+  background-color: rgb(230, 234, 251);
+}
+.MainDashBord {
+  position: relative;
+  left: -70px;
+}
+.listDashBord {
+  position: relative;
+  left: -80px;
+}
+.dashboardIcon {
+  position: relative;
+  left: -5px;
+  top: 5px;
+  color: blue;
+}
+.stockIcon {
+  position: relative;
+  left: -5px;
+  top: 5px;
+  color: blue;
+}
+.productIcon {
+  position: relative;
+  left: -5px;
+  top: 5px;
+  color: blue;
+}
+.customerIcon {
+  position: relative;
+  left: -5px;
+  top: 5px;
+  color: blue;
+}
+.qualityIcon {
+  position: relative;
+  left: -5px;
+  top: 5px;
+  color: blue;
+}
+.dashboard-col {
+  color: black;
+}
+.dashboard-col:hover {
+  background-color: rgb(226, 220, 225);
+  color: rgb(122, 118, 245);
+}

@@ -1,0 +1,14 @@
+.Header-components-wrap {
+  position: relative;
+  display: flex;
+  top: 10px;
+  left: 5px;
+  flex-direction: row;
+  gap: 240px;
+  width: 1340px;
+  height: 60px;
+  background-color: white;
+  border: 1px solid rgb(206, 206, 252);
+  position: fixed;
+  box-shadow: 2px 2px 2px blueviolet;
+}

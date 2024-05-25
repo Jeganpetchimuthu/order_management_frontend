@@ -1,0 +1,150 @@
+.recentOrder_list-wrap {
+  position: relative;
+
+  top: 1010px;
+  left: -285%;
+}
+.trOrderRecentContainer {
+  position: relative;
+  top: -180px;
+  left: 270px;
+  background-color: white;
+  width: 1000px;
+  padding: 10px;
+  height: 40px;
+  justify-content: space-between;
+  display: flex;
+  gap: 20px;
+  color: blue;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px gray;
+  font-weight: 900;
+}
+.tdOrderRecentContainer {
+  font-weight: 600;
+  position: relative;
+  top: -170px;
+  left: 270px;
+  background-color: white;
+  width: 1000px;
+  padding: 10px;
+  height: 40px;
+  justify-content: space-between;
+  display: flex;
+  gap: 20px;
+  color: blue;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px gray;
+}
+.order-flex-wrap {
+  position: relative;
+  top: 80px;
+  border: 1px solid rgb(253, 253, 253);
+  overflow: scroll;
+  width: 1100px;
+  height: 700px;
+  left: 90px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.order-List {
+  border: 1px solid gray;
+  box-shadow: 2px 2px 2px gray;
+  position: relative;
+  top: 10px;
+  left: 50px;
+  width: 1020px;
+  height: 60px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.product-th {
+  color: blue;
+}
+.brand-th {
+  position: relative;
+  color: blue;
+  left: -30px;
+}
+.category-th {
+  position: relative;
+  left: -30px;
+  color: blue;
+}
+.price-th {
+  position: relative;
+  left: -50px;
+  color: blue;
+}
+.stock-th {
+  position: relative;
+  left: -50px;
+  color: blue;
+}
+.action-th {
+  position: relative;
+  left: -60px;
+  color: blue;
+}
+
+.orderListCus-td {
+  position: relative;
+  left: 20px;
+  color: blue;
+}
+
+.orderListProduct-td {
+  position: relative;
+  left: 10px;
+  color: blue;
+}
+.orderListDate-td {
+  position: relative;
+  color: blue;
+  left: -20px;
+}
+.orderListAmt-td {
+  position: relative;
+  left: -50px;
+  color: blue;
+}
+.orderListAdd-td {
+  position: relative;
+  left: 10px;
+  color: blue;
+}
+.orderListPM-td {
+  position: relative;
+  left: 50px;
+  color: blue;
+}
+.product-delete-btn {
+  background-color: rgb(243, 112, 112);
+  border: 1px solid rgb(243, 112, 112);
+}
+.product-edit-btn {
+  position: relative;
+  left: 5px;
+  background-color: rgb(145, 246, 145);
+  border: 1px solid rgb(145, 246, 145);
+}
+.product-delete-btn:hover {
+  border: 1px solid rgb(243, 112, 112);
+}
+.product-edit-btn:hover {
+  border: 1px solid rgb(145, 246, 145);
+}
+.orderRecentList-wrap {
+  border: 1px solid gray;
+  box-shadow: 2px 2px 2px gray;
+  position: relative;
+  top: -190px;
+  left: 270px;
+  width: 1020px;
+  height: 60px;
+  background-color: white;
+  border-radius: 5px;
+}

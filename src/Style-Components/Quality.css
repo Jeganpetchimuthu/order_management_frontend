@@ -1,0 +1,89 @@
+.jega {
+  border-top: none;
+  width: 600px;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+.jega:hover {
+  border-top: 1px solid white;
+  width: 600px;
+  border-left: none;
+  border-right: 1px solid white;
+}
+.line {
+  width: 400px;
+  height: 1px;
+  background-color: rgb(240, 26, 26);
+}
+
+.product-th {
+  color: blue;
+}
+.brand-th {
+  position: relative;
+  color: blue;
+  left: -30px;
+}
+.category-th {
+  position: relative;
+  left: -30px;
+  color: blue;
+}
+.price-th {
+  position: relative;
+  left: -50px;
+  color: blue;
+}
+.stock-th {
+  position: relative;
+  left: -50px;
+  color: blue;
+}
+.action-th {
+  position: relative;
+  left: -60px;
+  color: blue;
+}
+
+.product-td {
+  position: relative;
+  left: 10px;
+  color: blue;
+}
+.brand-td {
+  position: relative;
+  color: blue;
+  left: -20px;
+}
+.category-td {
+  position: relative;
+  left: -30px;
+  color: blue;
+}
+.price-td {
+  position: relative;
+  left: 10px;
+  color: blue;
+}
+.stock-td {
+  position: relative;
+  left: 50px;
+  color: blue;
+}
+.product-delete-btn {
+  background-color: rgb(243, 112, 112);
+  border: 1px solid rgb(243, 112, 112);
+}
+.product-edit-btn {
+  position: relative;
+  left: 5px;
+  background-color: rgb(145, 246, 145);
+  border: 1px solid rgb(145, 246, 145);
+}
+.product-delete-btn:hover {
+  border: 1px solid rgb(243, 112, 112);
+}
+.product-edit-btn:hover {
+  border: 1px solid rgb(145, 246, 145);
+}

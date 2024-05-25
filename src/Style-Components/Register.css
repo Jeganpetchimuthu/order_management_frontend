@@ -1,0 +1,79 @@
+.register-container {
+  width: 1350px;
+  height: 620px;
+  margin-top: -100px;
+  margin-left: -40px;
+  background-color: blueviolet;
+  background: linear-gradient(#086464, #571848);
+}
+.userregister {
+  position: relative;
+  top: 30px;
+  color: rgb(248, 248, 248);
+  font-style: italic;
+}
+.signFn {
+  position: relative;
+  margin-left: -390px;
+  color: white;
+}
+.signLn {
+  position: relative;
+  margin-left: -390px;
+  color: white;
+}
+.signEmail {
+  position: relative;
+  margin-left: -390px;
+  color: white;
+}
+.singpass {
+  position: relative;
+  margin-left: -390px;
+  color: white;
+}
+
+.regInfn {
+  width: 500px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.regInfln {
+  width: 500px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.regInEmail {
+  width: 500px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.regInPassword {
+  width: 500px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.form-reg {
+  position: relative;
+  top: 30px;
+  left: 420px;
+  width: 500px;
+  height: 400px;
+}
+.reg-button {
+  border: none;
+  outline: none;
+}
+.reg-button:hover {
+  color: white;
+  background-color: blue;
+  outline: none;
+}

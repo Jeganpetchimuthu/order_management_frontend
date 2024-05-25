@@ -1,0 +1,22 @@
+.login-components {
+  position: relative;
+  width: 1350px;
+  height: 550px;
+  top: -60px;
+  left: -40px;
+  background-color: blueviolet;
+  background: linear-gradient(#086464, #571848);
+}
+.form-login {
+  position: relative;
+  top: 70px;
+  left: 420px;
+  width: 500px;
+  height: 400px;
+}
+.userLogin {
+  position: relative;
+  top: 40px;
+  font-style: italic;
+  color: white;
+}

@@ -1,0 +1,83 @@
+.dashsidebar-containers {
+  position: relative;
+  top: 64px;
+  left: -900px;
+  height: 150vh;
+  width: 15vw;
+  border: 1px solid rgb(100, 125, 252);
+  background-color: white;
+  box-shadow: 1px 1px 1px rgb(74, 118, 251);
+}
+
+.divSec {
+  position: relative;
+  width: 200px;
+  padding: 1px;
+  top: 0px;
+  background-color: rgb(230, 234, 251);
+}
+.MainDashBords {
+  position: relative;
+  left: -70px;
+}
+.listDashBords {
+  position: relative;
+  left: -80px;
+}
+.dashboardIcons {
+  position: relative;
+  left: -5px;
+  top: 5px;
+  color: blue;
+}
+.stockIcons {
+  position: relative;
+  left: -5px;
+  top: 5px;
+  color: blue;
+}
+.productIcons {
+  position: relative;
+  left: -5px;
+  top: 5px;
+  color: blue;
+}
+.customerIcon {
+  position: relative;
+  left: -5px;
+  top: 5px;
+  color: blue;
+}
+.qualityIcons {
+  position: relative;
+  left: -5px;
+  top: 5px;
+  color: blue;
+}
+.dashboard-cols {
+  position: relative;
+  top: -10px;
+  color: black;
+}
+
+.cus-contents {
+  color: blue;
+}
+.dashboardi-cols {
+  position: relative;
+  top: -10px;
+  color: black;
+}
+.dcustomerIcons {
+  color: blue;
+}
+.dashboardName {
+  position: relative;
+  left: 30px;
+  color: black;
+}
+.DdashboardIcons {
+  position: relative;
+  left: -30px;
+  top: -47px;
+}
