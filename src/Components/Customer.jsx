@@ -16,7 +16,9 @@ function Customer() {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/api/customer/${id}`);
+      await axios.delete(
+        `https://ordermanagement-backend-vqfp.vercel.app/api/customer/${id}`
+      );
       setCustomer(customer.filter((customers) => customers._id !== id));
     } catch (error) {
       console.error(error);
@@ -34,7 +36,7 @@ function Customer() {
       <br />
       <br />
       <DashBoard />
-      <div className="customerList">
+      <div className="customerList-wrap">
         <h3 className="cusList">
           Customer List
           <Link to={"/addCustomer"}>

@@ -17,7 +17,9 @@ function Stock() {
 
   const deleteProduct = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/api/stockItem/${id}`);
+      await axios.delete(
+        `https://ordermanagement-backend-vqfp.vercel.app/api/stockItem/${id}`
+      );
       setProducts(stocks.filter((stock) => stock._id !== id));
     } catch (error) {
       console.error(error);

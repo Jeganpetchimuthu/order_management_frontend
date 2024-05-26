@@ -16,7 +16,9 @@ export default function ProductList() {
 
   const deleteProduct = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/api/product/${id}`);
+      await axios.delete(
+        `https://ordermanagement-backend-vqfp.vercel.app/api/product/${id}`
+      );
       setProducts(products.filter((stock) => stock._id !== id));
     } catch (error) {
       console.error(error);

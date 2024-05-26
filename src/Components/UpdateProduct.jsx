@@ -43,7 +43,7 @@ function UpdateProduct() {
     e.preventDefault();
     try {
       const res = await axios.put(
-        `http://localhost:5000/api/product/${id}`,
+        `https://ordermanagement-backend-vqfp.vercel.app/api/product/${id}`,
         product
       );
       console.log(res.data);
@@ -144,7 +144,7 @@ function UpdateProduct() {
           />
         </label>
         <div className="blackline"></div>
-        <button className="cusAddbtnl">Add</button>
+        <button className="cusAddbtnl">Update</button>
       </form>
     </div>
   );

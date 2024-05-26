@@ -14,11 +14,13 @@
   border: 1px solid gray;
   border-radius: 5px;
   box-shadow: 2px 2px 2px gray;
+  background: transparent;
+  backdrop-filter: blur(10px);
 }
 .tdContainer {
   font-weight: 600;
   position: relative;
-  top: 10px;
+  top: 20px;
   left: 40px;
   background-color: white;
   width: 1000px;
@@ -31,8 +33,10 @@
   border: 1px solid gray;
   border-radius: 5px;
   box-shadow: 2px 2px 2px gray;
+  background: transparent;
+  backdrop-filter: blur(10px);
 }
-.customerList {
+.customerList-wrap {
   border: 1px solid gray;
   box-shadow: 2px 2px 2px gray;
   position: relative;

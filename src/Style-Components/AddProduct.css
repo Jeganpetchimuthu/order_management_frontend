@@ -6,6 +6,8 @@
   height: 50px;
   box-shadow: 2px 2px 2px grey;
   border: 1px solid grey;
+  background: transparent;
+  backdrop-filter: blur(10px);
 }
 .cusBackl {
   position: relative;
@@ -70,6 +72,8 @@
   border: 1px solid grey;
   border-radius: 5px;
   box-shadow: 2px 2px 2px gray;
+  background: transparent;
+  backdrop-filter: blur(10px);
 }
 .cusSelectionl {
   position: relative;
@@ -94,7 +98,7 @@
 }
 .cusAddbtnl:hover {
   color: white;
-  background-color: blue;
+  background-color: rgb(2, 48, 68);
   box-shadow: 2px 2px 2px orangered;
 }
 .cusemaill {

@@ -16,7 +16,9 @@ function OrderList() {
 
   const deleteOrder = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/api/order/${id}`);
+      await axios.delete(
+        `https://ordermanagement-backend-vqfp.vercel.app/api/order/${id}`
+      );
       setOrders(orders.filter((order) => order._id !== id));
     } catch (error) {
       console.error(error);

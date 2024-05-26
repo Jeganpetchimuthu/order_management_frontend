@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import "../Style-Components/Register.css"; // Assuming the CSS file is needed
+import "../Style-Components/Register.css";
 import "../Style-Components/Login.css";
 function Login() {
   const [formData, setFormData] = useState({
@@ -28,7 +28,6 @@ function Login() {
       localStorage.setItem("token", token);
       console.log(response);
 
-      // Navigate to the home page after successful login
       navigate("/home");
     } catch (error) {
       console.log(error);
